@@ -1,2 +1,2 @@
 FROM tomcat:8
-COPY workspace/POC/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY workspace/*.war /usr/local/tomcat/webapps/ROOT.war
